@@ -1,6 +1,6 @@
 (function() {
     var Message;
-    var accessToken = "9e78a546742344f381325e76f9c8742d";
+    var accessToken = "9e78a546742344f381325exxxxxxxx";  // DialogFlow Client Access Token
     var baseUrl = "https://api.dialogflow.com/v1/";
     Message = function(arg) {
         this.text = arg.text, this.message_side = arg.message_side;
